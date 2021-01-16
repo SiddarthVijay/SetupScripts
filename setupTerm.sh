@@ -18,3 +18,12 @@ python3 install.py
 # Pull the latest version of .zshrc
 cd ~
 curl -OL https://raw.githubusercontent.com/SiddarthVijay/SetupScripts/master/.zshrc
+
+# Setup powerline10k
+cd Miscellaneous
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ./powerlevel10k
+echo 'source /home/siddarth/Miscellaneous/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+
+# Start zsh
+cd ~
+source .zshrc
