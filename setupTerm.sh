@@ -31,3 +31,6 @@ echo 'source /home/siddarth/Miscellaneous/powerlevel10k/powerlevel10k.zsh-theme'
 # Start zsh
 cd ~
 source .zshrc
+
+# Set powerline10k defaults
+echo "Check ~/.p10k.zsh to add features"
